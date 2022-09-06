@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<!------------------------------HEAD------------------------------------------------>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	
+
+	
+	
+	
+	
+	
+</head>
+
+<!------------------------------BODY------------------------------------------------>
+<body>
+	<!---------------------------------------------------->	
+	<header>
+		<!--Use Flexbox to create the navigation bar-->
+		<div class="flexbox-container">
+			<div class="box-1">
+				<img src="MEDIA/global.png" alt="Logo"/>		
+			</div>	
+				
+			<div class="box-2">
+				<p class="tagline">ITWD6.408 </p>
+			</div>
+			
+			<div class="box-3">
+				<div class="horizontal-nav">
+					<ul>
+						<li class="active"><a href="index.html">HOME</a></li>
+						<li><a href="forms.html">FORMS</a></li>
+						<li><a href="xml-jsaon.html">XML/JSON</a></li>
+						<li><a href="js-demo.html">JAVASCRIPT</a></li>
+						<li><a href="my-research.html">RESEARCH</a></li>	
+					</ul>
+				</div>			
+			</div>			
+			<div class="box-4">
+				<p onclick="openNav()">≡</p>
+			</div>				
+		</div>
+
+
+
+		<!--Curtain menu: collapse this menu as default when loading the page-->
+		<nav id="curtain-nav">
+			<!--Add a close button (X) hyperlink on the top left corner-->
+			<a href="javascript:void(0)" class="nav-close-button" onclick="closeNav()">❌</a>
+			<div class="curtain-nav-content">
+				<ul>
+					<li class="active"><a href="index.html">HOME</a></li>
+					<li><a href="forms.html">FORMS</a></li>
+					<li><a href="xml-jsaon.html">XML/JSON</a></li>
+					<li><a href="js-demo.html">JAVASCRIPT</a></li>
+					<li><a href="my-research.html">RESEARCH</a></li>	
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<!---------------------------------------------------->	
+	<!--Main content section-->
+	<main>
+		
+		<section class="showcase"> 
+			<div class="bg-image"></div> 
+
+			<div class="bg-text">
+				<h2>Advanced Internet and Web Learning Portfolio</h2>
+				<h1>I am Jay Wardlow</h1>
+				<p>And I'm a Web Developer</p>
+			</div>
+		</section>
+		
+		<section class="bio"> Bio
+			
+			<div class="flex-container">
+				<img src="MEDIA/global.png" alt="Logo"/>
+				<div>I am Jay Wardlow. My interests are programming, gaming, and bike riding. I chose this course in order to seek jobs relating to my passion of coding and programming.</div>
+			</div>
+		
+		
+		
+		</section>
+		
+		<section class="webtechno"> Web techno section
+		</section>
+		
+		<section class="competence"> Competence section
+		
+			<div class="flip-box">
+				
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<h2>MARK-UP (HTML5)</h2>
+						
+						<div class="box-1">
+							<img src="MEDIA/html5.png" alt="HTML5" height="100px" width="100px">
+						</div>
+
+					</div>
+					<div class="flip-box-back">
+						<h2>Back Side</h2>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			
+			
+			
+			<div class="flip-box">
+				
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<h2>STYLING (CSS3)</h2>
+						
+						<div class="box-1">
+							<img src="MEDIA/css3.png" alt="CSS3" height="100px" width="100px">
+						</div>
+
+					</div>
+					<div class="flip-box-back">
+						<h2>Back Side</h2>
+					</div>
+				</div>
+				
+			</div>			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<h2>Front Side</h2>
+					</div>
+					<div class="flip-box-back">
+						<h2>Back Side</h2>
+					</div>
+				</div>
+			</div>
+			
+			
+
+
+
+
+		
+		</section>
+		
+		<section class="statement"> Statement section
+		</section>
+		
+	</main>
+	
+	<!---------------------------------------------------->	
+	<!--Footer section-->
+	<footer>
+		<div> @Created by: Daniel Dang <br />
+			Contact me at: <a href="mailto:ddang@eit.ac.nz">ddang@eit.ac.nz</a>
+		</div>
+	</footer>
+	
+	<!--Embed the js file at the bottom of the html file-->
+	<script type="text/javascript" src="JS/javascript.js">
+	</script>
+
+</body>
+</html>
+
